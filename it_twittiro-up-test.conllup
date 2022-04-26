@@ -1,0 +1,3645 @@
+# global.columns = ID UP:PRED UP:ARGHEADS UP:ARGSPANS
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_1
+# sent_id = test_1
+# text = SI A M..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_2
+# sent_id = test_2
+# text = Lo so,..........
+1	_	_	_
+2	know.01	A1:1	A1:1-1
+3	_	_	_
+4	be.01	A1:2|A2:5	A1:2-2|A2:5-5
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	be.01	_	_
+14	compose.01	A1:11|A2:17	A1:10-12|A2:15-17
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21-22	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	be.01	A2:26|A1:30	A2:26-26|A1:30-30
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+30	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_3
+# sent_id = test_3
+# text = cmq Ma..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	be.01	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	be.01	AM-NEG:12|A2:15	AM-NEG:12-12|A2:15-15
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_4
+# sent_id = test_4
+# text = se il ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	fail.01	A1:3	A1:3-4
+6	_	_	_
+7	replace.01	AM-MOD:6|A2:10	AM-MOD:6-6|A2:10-10
+8	_	_	_
+9	_	_	_
+10	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_5
+# sent_id = test_5
+# text = @user:..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	be.01	_	_
+5	_	_	_
+6	_	_	_
+7-8	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	correct.01	A1:15	A1:15-15
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_6
+# sent_id = test_6
+# text = che si..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	continue.01	A0:7|A1:13	A0:7-8|A1:13-13
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	start.01	A1:10|A0:15|AM-TMP:20	A1:10-10|A0:15-16|AM-TMP:18-21
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17-18	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_7
+# sent_id = test_7
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3	present.01	A0:2|A1:5|AM-LOC:7	A0:1-2|A1:5-5|AM-LOC:7-7
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	hope.01	A1:13	A1:13-13
+12	_	_	_
+13	propose.01	AM-NEG:12|A1:15	AM-NEG:12-12|A1:15-16
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_8
+# sent_id = test_8
+# text = Quello..........
+1	_	_	_
+2-3	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	be.01	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	seem.01	C-A1:21	C-A1:21-21
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_9
+# sent_id = test_9
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	remind.01	A2:12|A1:19	A2:12-12|A1:19-19
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	be.01	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	love.01	A1:19	A1:19-19
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_10
+# sent_id = test_10
+# text = I neoa..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	be.01	A1:2|A2:7|AM-TMP:12	A1:2-3|A2:7-7|AM-TMP:8-12
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	be.01	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_11
+# sent_id = test_11
+# text = RENZIT..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	create.01	A1:11	A1:11-11
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_12
+# sent_id = test_12
+# text = Sgarbi..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_13
+# sent_id = test_13
+# text = Oggi t..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_14
+# sent_id = test_14
+# text = L'atte..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_15
+# sent_id = test_15
+# text = Se può..........
+1	_	_	_
+2	_	_	_
+3	forgive.01	AM-MOD:2|A1:5	AM-MOD:2-2|A1:5-6
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	forgive.01	AM-ADV:3|A1:11	AM-ADV:3-3|A1:11-12
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_16
+# sent_id = test_16
+# text = #Scuol..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	overcome.01	A1:7	A1:7-8
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15-16	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	be.01	_	_
+19	base.02	A1:14|AM-MOD:18|A2:22	A1:14-17|AM-MOD:18-18|A2:22-22
+20-21	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_17
+# sent_id = test_17
+# text = Il dos..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	have.03	A0:2|A1:11	A0:2-6|A1:11-12
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_18
+# sent_id = test_18
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	say.01	_	_
+10	_	_	_
+11	be.01	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	have.03	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_19
+# sent_id = test_19
+# text = La buo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17-18	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_20
+# sent_id = test_20
+# text = dei pr..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	finance.01	A0:3|R-A0:4|A1:7	A0:3-3|R-A0:4-4|A1:7-8
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	care.01	A0:3|AM-NEG:9|A1:11	A0:3-8|AM-NEG:9-9|A1:11-11
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	repeat.01	A0:3|A1:24	A0:3-3|A1:24-24
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_21
+# sent_id = test_21
+# text = Divide..........
+1	divide.02	A1:7	A1:7-7
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_22
+# sent_id = test_22
+# text = Greci ..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_23
+# sent_id = test_23
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	murder.01	A1:6	A1:6-6
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	declare.01	AM-TMP:4|A1:10	AM-TMP:4-6|A1:10-10
+10	_	_	_
+11-12	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_24
+# sent_id = test_24
+# text = Visita..........
+1	_	_	_
+2-3	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21-22	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	be.01	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+30	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_25
+# sent_id = test_25
+# text = Dal Bu..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_26
+# sent_id = test_26
+# text = Scarce..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_27
+# sent_id = test_27
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	give.01	A0:2|A2:4|A1:6|A1:10	A0:1-2|A2:4-4|A1:6-6|A1:8-10
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_28
+# sent_id = test_28
+# text = Credo ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	have.03	A0:4|A1:9	A0:3-4|A1:9-10
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	be.01	_	_
+18	confuse.01	A0:15|A2:21	A0:15-15|A2:21-21
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_29
+# sent_id = test_29
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	A2:10	A2:10-10
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	expect.01	AM-ADV:16|A1:22	AM-ADV:16-16|A1:22-22
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	fire.02	A0:20	A0:20-20
+23	_	_	_
+24	_	_	_
+25	join.01	A1:20	A1:20-20
+26-27	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_30
+# sent_id = test_30
+# text = Nella ..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4-5	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	leave.12	AM-LOC:3|A0:8|AM-MNR:12|AM-DIS:16|A1:18	AM-LOC:3-4|A0:8-9|AM-MNR:12-12|AM-DIS:16-16|A1:18-18
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_31
+# sent_id = test_31
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_32
+# sent_id = test_32
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	do.02	A1:14|R-A1:15	A1:14-14|R-A1:15-15
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_33
+# sent_id = test_33
+# text = Ma gua..........
+1	_	_	_
+2	look.01	AM-DIS:1|A1:4	AM-DIS:1-1|A1:4-5
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_34
+# sent_id = test_34
+# text = Cannav..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_35
+# sent_id = test_35
+# text = Prof p..........
+1	_	_	_
+2	_	_	_
+3	go.02	AM-MOD:1|AM-MOD:2	AM-MOD:1-1|AM-MOD:2-2
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	go.02	A0:10|A4:16	A0:10-10|A4:16-16
+14-15	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+30	_	_	_
+31	_	_	_
+32	_	_	_
+33	_	_	_
+34	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_36
+# sent_id = test_36
+# text = Il sit..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	be.01	AM-NEG:13	AM-NEG:13-13
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_37
+# sent_id = test_37
+# text = Per ch..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	know.01	R-A0:2|AM-TMP:3|AM-NEG:4	R-A0:2-2|AM-TMP:3-3|AM-NEG:4-5
+7	be.01	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	see.01	A1:17|AM-TMP:18	A1:17-17|AM-TMP:18-18
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_38
+# sent_id = test_38
+# text = Docent..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	end_up.03	A1:1	A1:1-1
+7	_	_	_
+8	shop.01	A1:10	A1:10-10
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_39
+# sent_id = test_39
+# text = Simona..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	work.01	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	be.01	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_40
+# sent_id = test_40
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_41
+# sent_id = test_41
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	hear.01	A1:4	A1:4-4
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	make.02	_	_
+12	laugh.01	A0:10	A0:10-10
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	resist.01	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_42
+# sent_id = test_42
+# text = @user1..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	destroy.01	A1:8	A1:8-11
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_43
+# sent_id = test_43
+# text = @user:..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_44
+# sent_id = test_44
+# text = Dai ca..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5-6	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	understand.01	A0:3|AM-MNR:11|A1:14	A0:3-3|AM-MNR:11-11|A1:14-14
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15-16	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_45
+# sent_id = test_45
+# text = che ci..........
+1	_	_	_
+2	_	_	_
+3	care.01	A1:5	A1:5-5
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	have.03	A0:8	A0:8-8
+10	_	_	_
+11	_	_	_
+12	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_46
+# sent_id = test_46
+# text = #monti..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8-9	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_47
+# sent_id = test_47
+# text = Govern..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_48
+# sent_id = test_48
+# text = #gover..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	be.01	A2:8	A2:8-8
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_49
+# sent_id = test_49
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	ask.02	A0:2|A1:8|AM-TMP:11	A0:2-2|A1:8-9|AM-TMP:11-11
+8	_	_	_
+9-10	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	have.03	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_50
+# sent_id = test_50
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_51
+# sent_id = test_51
+# text = Salvin..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_52
+# sent_id = test_52
+# text = Bergog..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	be.01	A1:9|A2:12	A1:9-9|A2:12-12
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_53
+# sent_id = test_53
+# text = Ferrar..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	declare.01	A0:1|A1:7|A2:10	A0:1-5|A1:7-7|A2:10-12
+7	_	_	_
+8-9	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_54
+# sent_id = test_54
+# text = forse ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	prevent.01	AM-ADV:1|A0:3|AM-NEG:4|A1:7	AM-ADV:1-1|A0:3-3|AM-NEG:4-4|A1:7-10
+6	_	_	_
+7	_	_	_
+8-9	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	mean.01	AM-ADV:1|A0:3|A1:14	AM-ADV:1-1|A0:2-3|A1:14-14
+13	_	_	_
+14	_	_	_
+15-16	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_55
+# sent_id = test_55
+# text = Dolcet..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_56
+# sent_id = test_56
+# text = (...) ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	pay.01	A1:4	A1:4-4
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	be.01	_	_
+24	_	_	_
+25	write.01	A2:22|AM-DIS:24	A2:22-22|AM-DIS:24-24
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_57
+# sent_id = test_57
+# text = Chi è ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4-5	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_58
+# sent_id = test_58
+# text = Berlus..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	be.01	_	_
+5	return.01	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	_	_
+10	watch.01	A1:12	A1:12-12
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_59
+# sent_id = test_59
+# text = Alfano..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	be.01	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	be.01	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15-16	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_60
+# sent_id = test_60
+# text = Digita..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	load.01	_	_
+7	_	_	_
+8	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_61
+# sent_id = test_61
+# text = #la7 m..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	do.02	AM-CAU:3|A0:5|AM-NEG:6|A1:9|A1:12	AM-CAU:3-3|A0:5-5|AM-NEG:6-6|A1:9-9|A1:12-13
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_62
+# sent_id = test_62
+# text = Monito..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4-5	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	say.01	A0:6	A0:6-8
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	be.01	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_63
+# sent_id = test_63
+# text = Oh, ec..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	be.01	AM-DIS:1|AM-TMP:5|A2:8	AM-DIS:1-1|AM-TMP:5-5|A2:8-8
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	seem.01	A1:16	A1:16-16
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	earn.01	A1:18|AM-LOC:22	A1:18-18|AM-LOC:22-22
+17	_	_	_
+18	_	_	_
+19-20	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_64
+# sent_id = test_64
+# text = Totomi..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8-9	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16-17	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_65
+# sent_id = test_65
+# text = Di #Gr..........
+1	_	_	_
+2	_	_	_
+3	appreciate.02	A1:5	A1:5-5
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	excuse.01	AM-TMP:14	AM-TMP:14-14
+16	_	_	_
+17	go.02	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_66
+# sent_id = test_66
+# text = La scu..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19-20	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26-27	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+30	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_67
+# sent_id = test_67
+# text = Matteo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	want.01	A1:6	A1:6-6
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	be.01	AM-DIS:1|A2:9|AM-LOC:13	AM-DIS:1-1|A2:9-9|AM-LOC:13-13
+9	_	_	_
+10-11	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_68
+# sent_id = test_68
+# text = Berton..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_69
+# sent_id = test_69
+# text = Scajol..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	be.01	A1:4|A2:7	A1:4-4|A2:7-7
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10-11	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_70
+# sent_id = test_70
+# text = la buo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	turn.02	A0:3	A0:3-3
+10	keep.02	A1:13	A1:13-13
+11	block.01	A1:13|AM-TMP:19	A1:13-14|AM-TMP:18-19
+12	_	_	_
+13	_	_	_
+14-15	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	cut.02	A1:23	A1:22-23
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_71
+# sent_id = test_71
+# text = Le for..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	prefer.01	A0:2|AM-TMP:13|AM-MOD:14|A2:17	A0:2-3|AM-TMP:11-13|AM-MOD:14-14|A2:16-17
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_72
+# sent_id = test_72
+# text = Agnese..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	be.01	A2:11	A2:11-11
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_73
+# sent_id = test_73
+# text = ma scu..........
+1	_	_	_
+2	excuse.01	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	AM-DIS:1|A1:4|AM-MOD:8	AM-DIS:1-1|A1:4-4|AM-MOD:8-8
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	call.01	A1:11|R-A1:12|A2:15	A1:11-11|R-A1:12-12|A2:15-16
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_74
+# sent_id = test_74
+# text = Ma tra..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	advise.01	A0:13|R-A0:14|AM-MOD:15|A1:18|A2:20	A0:13-13|R-A0:14-14|AM-MOD:15-15|A1:18-18|A2:19-23
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	expel.01	A0:18|A1:21|A1:22|A2:25	A0:18-18|A1:21-22|A1:21-22|A2:23-25
+21	_	_	_
+22	_	_	_
+23-24	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_75
+# sent_id = test_75
+# text = i MINI..........
+1	_	_	_
+2	_	_	_
+3-4	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_76
+# sent_id = test_76
+# text = Se si ..........
+1	_	_	_
+2	_	_	_
+3	go_on.15	AM-DIR:4	AM-DIR:4-4
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	cost.01	AM-ADV:4|AM-TMP:9|A1:11|AM-ADV:13	AM-ADV:4-4|AM-TMP:8-9|A1:11-11|AM-ADV:13-15
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_77
+# sent_id = test_77
+# text = DOPO L..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5-6	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_78
+# sent_id = test_78
+# text = Si dor..........
+1	_	_	_
+2	sleep.01	A0:1|AM-MNR:3|AM-MNR:7	A0:1-1|AM-MNR:3-3|AM-MNR:7-7
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	be.01	A2:23	A2:23-23
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_79
+# sent_id = test_79
+# text = Ma se ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	be.01	A1:4|A2:7	A1:4-5|A2:7-7
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	be.01	_	_
+24	_	_	_
+25	do.02	R-A1:20|A0:21	R-A1:20-20|A0:21-21
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_80
+# sent_id = test_80
+# text = NAPOLI..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	tell.01	A2:11|AM-MOD:12	A2:11-11|AM-MOD:12-12
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	see.01	AM-TMP:16|A0:17	AM-TMP:16-16|A0:17-17
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_81
+# sent_id = test_81
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	want.01	AM-NEG:3|A1:6	AM-NEG:3-3|A1:6-6
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_82
+# sent_id = test_82
+# text = Ma per..........
+1	_	_	_
+2	_	_	_
+3	choose.01	AM-CAU:2|A1:5|AM-TMP:10	AM-CAU:2-2|A1:4-5|AM-TMP:8-10
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	be.01	AM-TMP:6	AM-TMP:6-6
+9	_	_	_
+10	_	_	_
+11	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_83
+# sent_id = test_83
+# text = Mi pia..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9-10	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17-18	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_84
+# sent_id = test_84
+# text = Che be..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	be.01	AM-DIS:6|AM-NEG:9	AM-DIS:6-6|AM-NEG:9-9
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	be.01	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	come.01	A1:26|AM-MOD:27|AM-TMP:28	A1:26-26|AM-MOD:27-27|AM-TMP:28-28
+30	_	_	_
+31	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_85
+# sent_id = test_85
+# text = @user1..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	make.02	R-A0:20|A1:23	R-A0:20-20|A1:23-23
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_86
+# sent_id = test_86
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	be.01	A1:5	A1:5-5
+7	_	_	_
+8	have.03	A0:5|A1:10	A0:5-5|A1:10-11
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	teach.01	AM-TMP:21|A2:24	AM-TMP:21-21|A2:24-24
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_87
+# sent_id = test_87
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18-19	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_88
+# sent_id = test_88
+# text = Tra i ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4-5	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7-8	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	be.01	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_89
+# sent_id = test_89
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	urge.01	A0:5|R-A0:6|A1:11|A2:14|A2:16	A0:5-5|R-A0:6-6|A1:11-11|A2:14-14|A2:16-16
+8	_	_	_
+9	force.01	A1:11|A2:14	A1:11-11|A2:14-14
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	do.02	A0:11|AM-NEG:13|A1:16	A0:11-11|AM-NEG:13-13|A1:16-16
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_90
+# sent_id = test_90
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	want.01	_	_
+6	_	_	_
+7	_	_	_
+8	have.03	AM-TMP:9|A1:10	AM-TMP:9-9|A1:10-10
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	teach.01	A0:10|R-A0:11|AM-NEG:12	A0:10-10|R-A0:11-11|AM-NEG:12-12
+15	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_91
+# sent_id = test_91
+# text = Legge ..........
+1	read.01	A1:3	A1:3-3
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	cut.02	A0:6	A0:6-6
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	receive.01	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16-17	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_92
+# sent_id = test_92
+# text = Ma i p..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	be.01	AM-DIS:1	AM-DIS:1-1
+7	report.01	AM-DIS:1|A1:3|AM-DIS:8|A2:11	AM-DIS:1-1|A1:3-4|AM-DIS:8-8|A2:11-11
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_93
+# sent_id = test_93
+# text = Faccia..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18-19	_	_	_
+18	remember.01	A1:19|AM-LOC:22	A1:19-19|AM-LOC:22-22
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_94
+# sent_id = test_94
+# text = Ma la ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	change.01	AM-DIS:1|A0:5|A1:8|AM-ADV:20	AM-DIS:1-1|A0:4-5|A1:8-8|AM-ADV:20-20
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_95
+# sent_id = test_95
+# text = Sono r..........
+1	be.01	A2:2	A2:2-2
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_96
+# sent_id = test_96
+# text = #Bersa..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	be.01	A1:4|AM-NEG:6	A1:4-4|AM-NEG:6-6
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	be.01	AM-NEG:13	AM-NEG:13-13
+15	_	_	_
+16	_	_	_
+17-18	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_97
+# sent_id = test_97
+# text = la cos..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4-5	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	be.01	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	turn_off.07	AM-DIS:21	AM-DIS:21-21
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_98
+# sent_id = test_98
+# text = “ dovr..........
+1	_	_	_
+2	_	_	_
+3	thank.01	AM-MOD:2|A1:4|AM-CAU:14	AM-MOD:2-2|A1:4-5|AM-CAU:14-14
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	be.01	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	learn.01	A0:13|A1:21	A0:13-13|A1:17-21
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	be.01	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_99
+# sent_id = test_99
+# text = Non as..........
+1	_	_	_
+2	wait.01	AM-NEG:1|A1:7	AM-NEG:1-1|A1:6-7
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	take.01	A0:6|AM-DIS:8|A1:11|A2:17	A0:5-6|AM-DIS:8-8|A1:11-11|A2:16-17
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	find.01	AM-MOD:20|A1:22	AM-MOD:20-20|A1:22-23
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_100
+# sent_id = test_100
+# text = #siamo..........
+1	_	_	_
+2	_	_	_
+3	go.02	_	_
+4	_	_	_
+5	live.01	AM-LOC:8	AM-LOC:8-8
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	open.01	A1:12	A1:12-13
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14-15	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_101
+# sent_id = test_101
+# text = Egregi..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	pay.01	AM-DIS:3|AM-MNR:6|A1:8|AM-ADV:19	AM-DIS:3-3|AM-MNR:6-6|A1:7-8|AM-ADV:19-19
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9-10	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	keep.01	A1:11|R-A1:12	A1:11-11|R-A1:12-12
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	remove.01	A1:21	A1:21-21
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+29	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_102
+# sent_id = test_102
+# text = RT @us..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	read.01	AM-TMP:5|A1:10	AM-TMP:5-5|A1:10-10
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	understand.01	AM-NEG:19|A1:22	AM-NEG:19-19|A1:22-22
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_103
+# sent_id = test_103
+# text = @user ..........
+1	_	_	_
+2	go_on.15	AM-DIS:3	AM-DIS:3-3
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	work.01	AM-TMP:9|AM-ADV:11|A1:13	AM-TMP:9-9|AM-ADV:11-11|A1:12-13
+11	_	_	_
+12	_	_	_
+13	repair.01	A1:15	A1:15-15
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	come.01	A4:23	A4:23-23
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_104
+# sent_id = test_104
+# text = @user:..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	be.01	A1:3|AM-NEG:4	A1:3-3|AM-NEG:4-4
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14-15	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19-20	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_105
+# sent_id = test_105
+# text = Incend..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	love.01	A0:26	A0:26-26
+28	_	_	_
+29	_	_	_
+30	_	_	_
+31	_	_	_
+32	_	_	_
+33	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_106
+# sent_id = test_106
+# text = Pazien..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_107
+# sent_id = test_107
+# text = @user ..........
+1	_	_	_
+2	read.01	A1:6	A1:6-6
+3	_	_	_
+4	_	_	_
+5	be.01	A1:4|A2:6	A1:4-4|A2:6-6
+6	_	_	_
+7-8	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	decide.01	A1:17	A1:16-17
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_108
+# sent_id = test_108
+# text = Thohir..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	call.02	A1:6	A1:6-6
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	know.02	A1:13	A1:13-13
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_109
+# sent_id = test_109
+# text = Legge ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14-15	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_110
+# sent_id = test_110
+# text = La "ca..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	form.02	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	be.01	_	_
+14	remain.01	AM-LOC:15	AM-LOC:15-15
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_111
+# sent_id = test_111
+# text = Eviva ..........
+1	live.01	A1:3	A1:3-3
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	exploit.01	A0:13|R-A0:14|A1:17	A0:13-13|R-A0:14-14|A1:17-17
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	go.02	A1:17|R-A1:18|AM-TMP:19|AM-DIR:22	A1:17-17|R-A1:18-18|AM-TMP:19-19|AM-DIR:22-22
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_112
+# sent_id = test_112
+# text = @user1..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	be.01	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_113
+# sent_id = test_113
+# text = @user1..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	contribute.01	A2:9|A2:10	A2:9-10|A2:9-10
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	do.02	AM-MOD:13	AM-MOD:13-13
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_114
+# sent_id = test_114
+# text = Dirott..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_115
+# sent_id = test_115
+# text = Vai Ma..........
+1	go.02	A0:2	A0:2-2
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	send.01	A0:9|AM-ADV:12|A2:14	A0:9-9|AM-ADV:12-12|A2:13-14
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_116
+# sent_id = test_116
+# text = Pare c..........
+1	seem.01	A1:5	A1:4-5
+2	_	_	_
+3	_	_	_
+4	be.01	A2:5	A2:5-7
+5	_	_	_
+6	_	_	_
+7	support.01	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	be.01	A2:16	A2:16-16
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_117
+# sent_id = test_117
+# text = Pubbli..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5-6	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_118
+# sent_id = test_118
+# text = La buo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11-12	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16-17	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22-23	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_119
+# sent_id = test_119
+# text = Sull'a..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	vote.01	A1:3|A0:7|AM-MNR:11	A1:3-3|A0:7-7|AM-MNR:10-11
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_120
+# sent_id = test_120
+# text = Tsipra..........
+1	_	_	_
+2	_	_	_
+3	resign.01	A1:12	A1:12-12
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_121
+# sent_id = test_121
+# text = Il Pap..........
+1	_	_	_
+2	_	_	_
+3	wish.01	A0:2|A1:5|A2:8	A0:2-2|A1:5-5|A2:8-11
+4	_	_	_
+5	_	_	_
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9-10	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_122
+# sent_id = test_122
+# text = Marco ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_123
+# sent_id = test_123
+# text = Ah com..........
+1	_	_	_
+2	_	_	_
+3	seem.01	AM-DIS:1|AM-DIS:2|A1:9	AM-DIS:1-1|AM-DIS:2-2|A1:9-10
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	cost.01	A0:6|AM-EXT:10|A2:14	A0:6-8|AM-EXT:10-10|A2:14-15
+10	_	_	_
+11-12	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_124
+# sent_id = test_124
+# text = Mario ..........
+1	_	_	_
+2	_	_	_
+3	give.01	A0:2|A1:5|A2:8	A0:1-2|A1:5-5|A2:6-12
+4	_	_	_
+5	_	_	_
+6-7	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10-11	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	be.01	AM-NEG:14|A2:17	AM-NEG:14-14|A2:17-17
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_125
+# sent_id = test_125
+# text = Betty ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_126
+# sent_id = test_126
+# text = @user ..........
+1	_	_	_
+2	be.01	_	_
+3	question.01	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	AM-MOD:8|A2:10	AM-MOD:8-8|A2:10-10
+10	question.01	R-AM-LOC:7|AM-MOD:8|AM-LOC:16	R-AM-LOC:7-7|AM-MOD:8-8|AM-LOC:16-16
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	be.01	AM-MOD:14	AM-MOD:14-14
+16	question.01	AM-LOC:13|AM-MOD:14	AM-LOC:13-13|AM-MOD:14-14
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_127
+# sent_id = test_127
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	see.01	A1:21	A1:21-21
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	be.01	_	_
+19	_	_	_
+20	_	_	_
+21	want.01	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_128
+# sent_id = test_128
+# text = @user ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	be.01	A1:4	A1:4-4
+7	_	_	_
+8	_	_	_
+9	laugh.01	_	_
+10	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_129
+# sent_id = test_129
+# text = @user ..........
+1	_	_	_
+2-3	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	see.01	A0:6|A1:9	A0:6-6|A1:9-9
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_130
+# sent_id = test_130
+# text = Al PRO..........
+1-2	_	_	_
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	be.01	_	_
+10	_	_	_
+11	_	_	_
+12-13	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16-17	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	quote.01	_	_
+21	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_131
+# sent_id = test_131
+# text = anche ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10-11	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13-14	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_132
+# sent_id = test_132
+# text = Gli am..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15-16	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20-21	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_133
+# sent_id = test_133
+# text = Sono r..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10-11	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	_	_	_
+27	_	_	_
+28	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_134
+# sent_id = test_134
+# text = La buo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	be.01	A1:13|A2:15	A1:13-13|A2:15-15
+15	annoy.01	A1:13	A1:13-13
+16	_	_	_
+17	look.01	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_135
+# sent_id = test_135
+# text = #Renzi..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	be.01	A1:9|AM-NEG:10	A1:9-9|AM-NEG:10-10
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18-19	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	speak.01	A2:17|A1:26	A2:17-17|A1:26-26
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+26	see.01	A1:24	A1:24-24
+27	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_136
+# sent_id = test_136
+# text = #labuo..........
+1	_	_	_
+2-3	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	turn.02	AM-ADV:8|A1:10	AM-ADV:8-8|A1:10-10
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	be.01	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+23	_	_	_
+24	_	_	_
+25	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_137
+# sent_id = test_137
+# text = Comunq..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	seem.01	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	dedicate.01	A1:15|A2:18	A1:15-15|A2:17-18
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_138
+# sent_id = test_138
+# text = Scuole..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_139
+# sent_id = test_139
+# text = #labuo..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_140
+# sent_id = test_140
+# text = Legge ..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+17	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_141
+# sent_id = test_141
+# text = Ebola,..........
+1	_	_	_
+2	_	_	_
+3	speak.01	AM-DIS:1|A0:5	AM-DIS:1-1|A0:5-5
+4	_	_	_
+5	_	_	_
+6	_	_	_
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10-11	_	_	_
+10	forget.01	AM-NEG:9|A1:11	AM-NEG:9-9|A1:11-11
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	_	_	_
+
+# source_sent_id = conllu http://hdl.handle.net/11234/1-4611 UD_Italian-TWITTIRO/it_twittiro-ud-test.conllu test_142
+# sent_id = test_142
+# text = Primar..........
+1	_	_	_
+2	_	_	_
+3	_	_	_
+4	_	_	_
+5	_	_	_
+6	beat.03	A0:5|A1:9	A0:5-5|A1:9-9
+7	_	_	_
+8	_	_	_
+9	_	_	_
+10	_	_	_
+11	_	_	_
+12	_	_	_
+13	_	_	_
+14	_	_	_
+15	_	_	_
+16	try.01	AM-TMP:15	AM-TMP:15-15
+17	_	_	_
+18	_	_	_
+19	_	_	_
+20	_	_	_
+21	_	_	_
+22	_	_	_
+
